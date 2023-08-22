@@ -125,7 +125,7 @@ const Form = () => {
 
   function handleSubmit(e) {
     e.preventDefault();
-    console.log(data);
+   //console.log(data);
     setdata({ fname: "", lname: "" })
 
   }
